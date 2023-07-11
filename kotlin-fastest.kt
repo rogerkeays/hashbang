@@ -1,4 +1,4 @@
-//usr/bin/env [ $0 -nt $0.jar ] && kotlinc -d $0.jar $0; [ $0.jar -nt $0 ] && java -jar $0.jar "$@"; exit $?
+//usr/bin/env [ $0 -nt $0.jar ] && kotlinc -d $0.jar $0; [ $0.jar -nt $0 ] && java -cp $0.jar:$CLASSPATH Kotlin_fastestKt "$@"; exit $?
 
 // first run is slow because of compiling
 // launched with java instead of kotlin

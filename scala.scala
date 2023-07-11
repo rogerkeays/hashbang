@@ -1,4 +1,6 @@
-//usr/bin/env scala $0 $@; exit $?
+//usr/bin/env scala $0 "$@"; exit $?
 
-@main def hello() = println("hello scala.scala")
+object Main extends App {
+    println("hello scala.scala")
+}
 

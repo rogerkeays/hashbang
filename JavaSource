@@ -1,0 +1,11 @@
+#!/usr/bin/env -S java --source 11 #vim: filetype=java
+
+// source must not end in .java
+// class can have any name
+// compiled code not cached
+public class AnyName {
+    public static void main(String[] args) {
+        System.out.println("hello JavaSource");
+    }
+}
+
